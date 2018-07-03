@@ -23,7 +23,7 @@ count = 0
 for feature in shaft.features:
     count = count + 1
     print("Cylinder " + str(count) + " => " + "Dia: " + str(feature.diameter) + " Length: " + str(feature.length))
-    print("  volume = ", feature.get_volume)
+    print("  volume = ", feature.get_volume())
 
 #-- Display some info about the Shaft, which are derived from the Cylinder objects
 #-- of which it is made of.
