@@ -1,17 +1,21 @@
 GitHub\python\Shafts> py shaft.py
 
 
-Cylinder 1 => Dia: 5 Length: 10
+Run "python shaft.py"
 
-volume =  196.34954084936209
+Output:
 
-Cylinder 2 => Dia: 10 Length: 20
+Cylinder 1 => Dia: 5 Length: 10.25
+  volume =  201.25827937059614
+Cylinder 2 => Dia: 7 Length: 18
+  volume =  692.7211801165494
+Cylinder 3 => Dia: 4.25 Length: 7
+  volume =  99.30378028456487
 
-volume =  1570.7963267948967
+Overall Length: 35.25
 
-Cylinder 3 => Dia: 5 Length: 10
- volume =  196.34954084936209
+Volume: 993.283240 cubic units
 
-Total Volume: 1963.495408 cubic units
+Weight: 282.092440 (lbs):
 
-Overall Length: 40
+
