@@ -22,6 +22,8 @@ class shaft(object):
 
     def __init__(self):
         self.features = []
+        self.density = 0.284 # Steel = .284 lb / cu in.
+        self.weight = 0
         
     def get_volume(self):
     
@@ -31,6 +33,14 @@ class shaft(object):
     		volume = volume + feature.get_volume()
     		
     	return volume
+    
+    def calculate_weight(self):
+        volume = self.get_volume()
+        self.weight = volume * self.density
+
+        return
+
+
 
     def get_length(self):
     
@@ -44,6 +54,7 @@ class shaft(object):
     def add_feature(self, feature):	
         feature._start_z = self.get_length
         self.features.append(feature)
+        self.calculate_weight()
 
 
 
