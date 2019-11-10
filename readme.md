@@ -54,7 +54,7 @@ Material table schema
 
 #-- SQL Examples:
 
-#-- Get a Shaft, and it's Material data:
+#-- Get a Shaft, and its Material data:
 
 ```
 Select * From Shafts
